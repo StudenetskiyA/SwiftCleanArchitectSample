@@ -6,14 +6,32 @@
 import Foundation
 
 class PeoplePresenter : IPeoplePresenter{
+    var peopleView: IPeopleView?
+    let peopleInteractor: IPeopleInteractor
+
+    init(peopleInteractor: IPeopleInteractor) {
+        self.peopleInteractor = peopleInteractor
+    }
+
+    func bindView(view: IPeopleView) {
+        peopleView = view
+    }
+
+    func unbindView() {
+        peopleView = nil
+    }
 
 
     func getPeople(firstName: String, secondName: String) {
+        let result = peopleInteractor.getPeople(firstName: firstName, secondName: secondName)
 
+        if (result != nil) {
+            refreshUI(info: result!)
+        }
     }
 
-    func refreshUI() {
-
+    func refreshUI(info: String) {
+        peopleView?.setInfoToView(data: info)
     }
 
 }

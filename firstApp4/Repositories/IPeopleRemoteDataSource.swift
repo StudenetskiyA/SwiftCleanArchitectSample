@@ -8,7 +8,7 @@
 
 import Foundation
 
-protocol IPeopleRemoteSource {
+protocol IPeopleRemoteDataSource {
     
     func getPeople(firstName: String, secondName: String) -> String?
 

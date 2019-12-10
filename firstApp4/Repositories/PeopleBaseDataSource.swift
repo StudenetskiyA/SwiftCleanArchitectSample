@@ -11,7 +11,7 @@ import Foundation
 class PeopleBaseDataSource: IPeopleLocalDataSource {
 
     func getPeople(firstName: String, secondName: String) -> String? {
-        return ""
+        return nil
     }
 
     func savePeople(firstName: String, secondName: String, result: String) {

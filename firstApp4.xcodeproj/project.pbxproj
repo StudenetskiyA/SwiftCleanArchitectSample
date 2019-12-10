@@ -10,7 +10,9 @@
 		5E8A61341550B9067D436E86 /* IPeopleLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A65F25E3AE0B77860AD56 /* IPeopleLocalDataSource.swift */; };
 		5E8A61AECE69EBD9430A82B5 /* PeoplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6DA66638C68E6D3FFF8E /* PeoplePresenter.swift */; };
 		5E8A61DB5B9DA95DA1BCFF1B /* IPeoplePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6A0FFAAD745E3C5C9076 /* IPeoplePresenter.swift */; };
-		5E8A65FD4872B1F537DFC6D0 /* IPeopleRemoteSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6B2301C5865BD967B2B9 /* IPeopleRemoteSource.swift */; };
+		5E8A63A0ECDAC914A54A5278 /* PeopleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6933EB40DC98EA9E7ED5 /* PeopleInteractor.swift */; };
+		5E8A642A22C17C50AE45418E /* IPeopleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6734AC47E684DBF85D63 /* IPeopleInteractor.swift */; };
+		5E8A65FD4872B1F537DFC6D0 /* IPeopleRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6B2301C5865BD967B2B9 /* IPeopleRemoteDataSource.swift */; };
 		5E8A6837976D1B677F1790DE /* IPeopleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A690164FC6E3EDAC3BABD /* IPeopleRepository.swift */; };
 		5E8A68CD555E48196E7A61C0 /* IPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A60E18C221DDE870E436D /* IPeopleView.swift */; };
 		5E8A6D9D985A7733C1F63A7B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A665BABBE86672F833947 /* App.swift */; };
@@ -48,9 +50,11 @@
 		5E8A60E18C221DDE870E436D /* IPeopleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleView.swift; sourceTree = "<group>"; };
 		5E8A65F25E3AE0B77860AD56 /* IPeopleLocalDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleLocalDataSource.swift; sourceTree = "<group>"; };
 		5E8A665BABBE86672F833947 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		5E8A6734AC47E684DBF85D63 /* IPeopleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleInteractor.swift; sourceTree = "<group>"; };
 		5E8A690164FC6E3EDAC3BABD /* IPeopleRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleRepository.swift; sourceTree = "<group>"; };
+		5E8A6933EB40DC98EA9E7ED5 /* PeopleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleInteractor.swift; sourceTree = "<group>"; };
 		5E8A6A0FFAAD745E3C5C9076 /* IPeoplePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeoplePresenter.swift; sourceTree = "<group>"; };
-		5E8A6B2301C5865BD967B2B9 /* IPeopleRemoteSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleRemoteSource.swift; sourceTree = "<group>"; };
+		5E8A6B2301C5865BD967B2B9 /* IPeopleRemoteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleRemoteDataSource.swift; sourceTree = "<group>"; };
 		5E8A6DA66638C68E6D3FFF8E /* PeoplePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeoplePresenter.swift; sourceTree = "<group>"; };
 		A7C6CC12239E67F5002394DC /* firstApp4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firstApp4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C6CC15239E67F5002394DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 			isa = PBXGroup;
 			children = (
 				5E8A690164FC6E3EDAC3BABD /* IPeopleRepository.swift */,
+				5E8A6734AC47E684DBF85D63 /* IPeopleInteractor.swift */,
+				5E8A6933EB40DC98EA9E7ED5 /* PeopleInteractor.swift */,
 			);
 			path = Interactors;
 			sourceTree = "<group>";
@@ -176,7 +182,7 @@
 				A7C6CC49239E7186002394DC /* PeopleServiceDataSource.swift */,
 				A7C6CC4B239E71D2002394DC /* PeopleBaseDataSource.swift */,
 				A7C6CC4D239E723D002394DC /* PeopleRepository.swift */,
-				5E8A6B2301C5865BD967B2B9 /* IPeopleRemoteSource.swift */,
+				5E8A6B2301C5865BD967B2B9 /* IPeopleRemoteDataSource.swift */,
 				5E8A65F25E3AE0B77860AD56 /* IPeopleLocalDataSource.swift */,
 			);
 			path = Repositories;
@@ -320,12 +326,14 @@
 				A7C6CC4A239E7186002394DC /* PeopleServiceDataSource.swift in Sources */,
 				A7C6CC4E239E723D002394DC /* PeopleRepository.swift in Sources */,
 				5E8A6837976D1B677F1790DE /* IPeopleRepository.swift in Sources */,
-				5E8A65FD4872B1F537DFC6D0 /* IPeopleRemoteSource.swift in Sources */,
+				5E8A65FD4872B1F537DFC6D0 /* IPeopleRemoteDataSource.swift in Sources */,
 				5E8A68CD555E48196E7A61C0 /* IPeopleView.swift in Sources */,
 				5E8A6D9D985A7733C1F63A7B /* App.swift in Sources */,
 				5E8A61DB5B9DA95DA1BCFF1B /* IPeoplePresenter.swift in Sources */,
 				5E8A61AECE69EBD9430A82B5 /* PeoplePresenter.swift in Sources */,
 				5E8A61341550B9067D436E86 /* IPeopleLocalDataSource.swift in Sources */,
+				5E8A642A22C17C50AE45418E /* IPeopleInteractor.swift in Sources */,
+				5E8A63A0ECDAC914A54A5278 /* PeopleInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

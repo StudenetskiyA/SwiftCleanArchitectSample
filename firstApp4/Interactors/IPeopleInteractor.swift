@@ -5,10 +5,8 @@
 
 import Foundation
 
-protocol IPeopleView {
+protocol IPeopleInteractor {
 
-    func searchPeople()
-
-    func setInfoToView(data: String) //Вообще, здесь надо дата-модель
+    func getPeople(firstName: String, secondName: String) -> String?
 
 }

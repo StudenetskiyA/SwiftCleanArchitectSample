@@ -8,10 +8,10 @@
 
 import Foundation
 
-class PeopleServiceDataSource: IPeopleRemoteSource {
+class PeopleServiceDataSource: IPeopleRemoteDataSource {
     
     func getPeople(firstName: String, secondName: String) -> String? {
-        return ""
+        return firstName + "/" + secondName
     }
     
 }

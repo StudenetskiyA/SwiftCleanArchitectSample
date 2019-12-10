@@ -9,10 +9,10 @@
 import Foundation
 
 class PeopleRepository: IPeopleRepository{
-    let peopleServiceDataSource: IPeopleRemoteSource
+    let peopleServiceDataSource: IPeopleRemoteDataSource
     let peopleBaseDataSource: IPeopleLocalDataSource
     
-    init(peopleServiceDataSource: IPeopleRemoteSource, peopleBaseDataSource: IPeopleLocalDataSource) {
+    init(peopleServiceDataSource: IPeopleRemoteDataSource, peopleBaseDataSource: IPeopleLocalDataSource) {
         self.peopleServiceDataSource = peopleServiceDataSource
         self.peopleBaseDataSource = peopleBaseDataSource
     }

@@ -9,4 +9,8 @@ protocol IPeoplePresenter {
 
     func getPeople(firstName: String, secondName: String)
 
+    func bindView(view: IPeopleView)
+
+    func unbindView()
+
 }

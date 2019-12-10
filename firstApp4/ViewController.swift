@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, IPeopleView {
     let app = App()
-    var peoplePresenter : IPeoplePresenter?
+    var peoplePresenter: IPeoplePresenter?
 
     @IBOutlet var resultsTextView: UITextView!
     @IBOutlet var nameTextField: UITextField!
@@ -20,6 +20,7 @@ class ViewController: UIViewController, IPeopleView {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         peoplePresenter = app.getPeoplePresenter()
+        peoplePresenter?.bindView(view: self)
     }
 
     @IBAction func okButtonPressed(sender: AnyObject) {
@@ -36,7 +37,11 @@ class ViewController: UIViewController, IPeopleView {
 
     func searchPeople() {
         peoplePresenter?.getPeople(firstName: nameTextField.text!, secondName: passwordTextField.text!)
-//        resultsTextView.text = nameTextField.text! + "/" + passwordTextField.text!
     }
+
+    func setInfoToView(data: String) {
+        resultsTextView.text = data
+    }
+
 }
 

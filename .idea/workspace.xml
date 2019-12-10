@@ -1,14 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7417edd0-dd46-44f7-a1e3-17af02ef5bfc" name="Default Changelist" comment="" />
+    <list default="true" id="7417edd0-dd46-44f7-a1e3-17af02ef5bfc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firstApp4/Interactors/IPeopleInteractor.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/firstApp4/Interactors/PeopleInteractor.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/App.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/App.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/Presenters/IPeoplePresenter.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Presenters/IPeoplePresenter.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/Presenters/IPeopleView.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Presenters/IPeopleView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/Presenters/PeoplePresenter.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Presenters/PeoplePresenter.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/Repositories/IPeopleRemoteSource.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Repositories/IPeopleRemoteDataSource.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/Repositories/PeopleBaseDataSource.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Repositories/PeopleBaseDataSource.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/Repositories/PeopleRepository.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Repositories/PeopleRepository.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/Repositories/PeopleServiceDataSource.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Repositories/PeopleServiceDataSource.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/ViewController.swift" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_16A9E1B1-CB21-481B-A109-7EE79DB89227" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UmwXsREGVYP6ufRVK3iqVjzZnB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -17,6 +36,7 @@
   <component name="PropertiesComponent">
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="firstApp4" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -59,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575975120631</updated>
-      <workItem from="1575975122165" duration="3240000" />
+      <workItem from="1575975122165" duration="5930000" />
     </task>
     <servers />
   </component>
@@ -67,22 +87,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1358" height="254" key="GridCell.Tab.0.bottom" timestamp="1575978460238">
+    <state width="1358" height="254" key="GridCell.Tab.0.bottom" timestamp="1575984199400">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
-    <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1575978460238" />
-    <state width="1358" height="254" key="GridCell.Tab.0.center" timestamp="1575978460237">
+    <state width="1358" height="254" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1575984199400" />
+    <state width="1358" height="254" key="GridCell.Tab.0.center" timestamp="1575984199400">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
-    <state width="1358" height="254" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1575978460237" />
-    <state width="1358" height="254" key="GridCell.Tab.0.left" timestamp="1575978460237">
+    <state width="1358" height="254" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1575984199400" />
+    <state width="1358" height="254" key="GridCell.Tab.0.left" timestamp="1575984199400">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
-    <state width="1358" height="254" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1575978460237" />
-    <state width="1358" height="254" key="GridCell.Tab.0.right" timestamp="1575978460237">
+    <state width="1358" height="254" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1575984199400" />
+    <state width="1358" height="254" key="GridCell.Tab.0.right" timestamp="1575984199400">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
-    <state width="1358" height="254" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1575978460237" />
+    <state width="1358" height="254" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1575984199400" />
     <state x="469" y="156" key="SettingsEditor" timestamp="1575975276249">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
