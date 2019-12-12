@@ -23,11 +23,13 @@ class PeoplePresenter : IPeoplePresenter{
 
 
     func getPeople(firstName: String, secondName: String) {
-        let result = peopleInteractor.getPeople(firstName: firstName, secondName: secondName)
-
-        if (result != nil) {
-            refreshUI(info: result!)
-        }
+        _ = peopleInteractor.getPeople(firstName: firstName, secondName: secondName).subscribe(onNext: { (event) in
+            print(event)
+        }, onError: { (error) in
+            print(error)
+        }, onCompleted: {
+            print("finish")
+        })
     }
 
     func refreshUI(info: String) {

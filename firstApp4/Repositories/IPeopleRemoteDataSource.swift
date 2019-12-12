@@ -7,10 +7,11 @@
 //
 
 import Foundation
+import RxSwift
 
 protocol IPeopleRemoteDataSource {
     
-    func getPeople(firstName: String, secondName: String) -> String?
+    func getPeople(firstName: String, secondName: String) -> Observable<String>
 
 
 }

@@ -7,11 +7,17 @@
 //
 
 import Foundation
+import RxSwift
+import RealmSwift
 
 class PeopleBaseDataSource: IPeopleLocalDataSource {
-
-    func getPeople(firstName: String, secondName: String) -> String? {
-        return nil
+    func getPeople(firstName: String, secondName: String) -> Observable<String> {
+        //return Observable<String>.just("from base")
+        Observable.create({ observer -> Disposable in
+            observer.onError(NSError(domain: "", code: 404, userInfo: nil))
+            return Disposables.create {
+            }
+        })
     }
 
     func savePeople(firstName: String, secondName: String, result: String) {

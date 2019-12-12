@@ -4,10 +4,11 @@
 //
 
 import Foundation
+import RxSwift
 
 protocol IPeopleLocalDataSource {
 
-    func getPeople(firstName: String, secondName: String) -> String?
+    func getPeople(firstName: String, secondName: String) -> Observable<String>
 
     func savePeople(firstName: String, secondName: String, result: String)
 

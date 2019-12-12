@@ -6,6 +6,7 @@
 import Foundation
 
 class App {
+    static let tag = "firstApp4"
     var peoplePresenter : IPeoplePresenter?
     var peopleInteractor : IPeopleInteractor?
     var peopleRepository : IPeopleRepository?
