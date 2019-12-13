@@ -13,8 +13,10 @@
 		5E8A63A0ECDAC914A54A5278 /* PeopleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6933EB40DC98EA9E7ED5 /* PeopleInteractor.swift */; };
 		5E8A642A22C17C50AE45418E /* IPeopleInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6734AC47E684DBF85D63 /* IPeopleInteractor.swift */; };
 		5E8A65FD4872B1F537DFC6D0 /* IPeopleRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6B2301C5865BD967B2B9 /* IPeopleRemoteDataSource.swift */; };
+		5E8A6699228A3CFD8B38A24D /* ILogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A683994C530A53A098C1F /* ILogInteractor.swift */; };
 		5E8A67232B5A89E38009C316 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A64FCCE69528E92B1E586 /* Log.swift */; };
 		5E8A6837976D1B677F1790DE /* IPeopleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A690164FC6E3EDAC3BABD /* IPeopleRepository.swift */; };
+		5E8A68ACC76522BA2635BEDF /* LogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6E394C3A84FBECD76069 /* LogInteractor.swift */; };
 		5E8A68CD555E48196E7A61C0 /* IPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A60E18C221DDE870E436D /* IPeopleView.swift */; };
 		5E8A6BB13E4586CC6D02B643 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6FD47CE5F011F1A7C892 /* People.swift */; };
 		740BEDA3C3AC084C13E232B3 /* Pods_firstApp4_firstApp4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EC3613B976B8C3A8FA38E3 /* Pods_firstApp4_firstApp4UITests.framework */; };
@@ -60,11 +62,13 @@
 		5E8A64FCCE69528E92B1E586 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		5E8A65F25E3AE0B77860AD56 /* IPeopleLocalDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleLocalDataSource.swift; sourceTree = "<group>"; };
 		5E8A6734AC47E684DBF85D63 /* IPeopleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleInteractor.swift; sourceTree = "<group>"; };
+		5E8A683994C530A53A098C1F /* ILogInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ILogInteractor.swift; sourceTree = "<group>"; };
 		5E8A690164FC6E3EDAC3BABD /* IPeopleRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleRepository.swift; sourceTree = "<group>"; };
 		5E8A6933EB40DC98EA9E7ED5 /* PeopleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleInteractor.swift; sourceTree = "<group>"; };
 		5E8A6A0FFAAD745E3C5C9076 /* IPeoplePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeoplePresenter.swift; sourceTree = "<group>"; };
 		5E8A6B2301C5865BD967B2B9 /* IPeopleRemoteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleRemoteDataSource.swift; sourceTree = "<group>"; };
 		5E8A6DA66638C68E6D3FFF8E /* PeoplePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeoplePresenter.swift; sourceTree = "<group>"; };
+		5E8A6E394C3A84FBECD76069 /* LogInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInteractor.swift; sourceTree = "<group>"; };
 		5E8A6FD47CE5F011F1A7C892 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		61963275493DB4E7A1FECA05 /* Pods-firstApp4Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firstApp4Tests.release.xcconfig"; path = "Target Support Files/Pods-firstApp4Tests/Pods-firstApp4Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A728D27023A0D5BE009757C1 /* firstApp4-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "firstApp4-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -225,6 +229,8 @@
 				5E8A690164FC6E3EDAC3BABD /* IPeopleRepository.swift */,
 				5E8A6734AC47E684DBF85D63 /* IPeopleInteractor.swift */,
 				5E8A6933EB40DC98EA9E7ED5 /* PeopleInteractor.swift */,
+				5E8A683994C530A53A098C1F /* ILogInteractor.swift */,
+				5E8A6E394C3A84FBECD76069 /* LogInteractor.swift */,
 			);
 			path = Interactors;
 			sourceTree = "<group>";
@@ -497,6 +503,8 @@
 				5E8A63A0ECDAC914A54A5278 /* PeopleInteractor.swift in Sources */,
 				5E8A67232B5A89E38009C316 /* Log.swift in Sources */,
 				5E8A6BB13E4586CC6D02B643 /* People.swift in Sources */,
+				5E8A6699228A3CFD8B38A24D /* ILogInteractor.swift in Sources */,
+				5E8A68ACC76522BA2635BEDF /* LogInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

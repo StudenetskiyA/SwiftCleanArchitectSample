@@ -8,9 +8,20 @@ import Foundation
 class PeoplePresenter : IPeoplePresenter{
     var peopleView: IPeopleView?
     let peopleInteractor: IPeopleInteractor
+    let logInteractor: ILogInteractor
 
-    init(peopleInteractor: IPeopleInteractor) {
+    init(peopleInteractor: IPeopleInteractor, logInteractor: ILogInteractor) {
         self.peopleInteractor = peopleInteractor
+        self.logInteractor = logInteractor
+    }
+
+    func clearLog() {
+        logInteractor.clearLog()
+        getLog()
+    }
+
+    func getLog() {
+        refreshUI(info: logInteractor.getLog())
     }
 
     func bindView(view: IPeopleView) {
@@ -21,11 +32,11 @@ class PeoplePresenter : IPeoplePresenter{
         peopleView = nil
     }
 
-
     func getPeople(firstName: String, secondName: String) {
         _ = peopleInteractor.getPeople(firstName: firstName, secondName: secondName).subscribe(onNext: { (event) in
-            print(event)
+            self.refreshUI(info: event)
         }, onError: { (error) in
+            self.refreshUI(info: error as? String ?? "")
             print(error)
         }, onCompleted: {
             print("finish")

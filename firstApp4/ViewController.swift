@@ -10,6 +10,8 @@ import UIKit
 import RealmSwift
 
 class ViewController: UIViewController, IPeopleView {
+    let tag = AppDelegate.tag + "/View"
+
     var app = UIApplication.shared.delegate as! AppDelegate
     lazy var peoplePresenter: IPeoplePresenter = app.peoplePresenter
     lazy var realm: Realm = app.realm
@@ -25,8 +27,18 @@ class ViewController: UIViewController, IPeopleView {
     }
 
     @IBAction func okButtonPressed(sender: AnyObject) {
-        print("Button pressed")
+        print("Search button pressed")
         searchPeople()
+    }
+
+    @IBAction func viewLogButtonPressed(sender: AnyObject) {
+        Log.d(moduleName: self.tag, message: "View log pressed")
+        peoplePresenter.getLog()
+    }
+
+    @IBAction func clearLogButtonPressed(sender: AnyObject) {
+        Log.d(moduleName: self.tag, message: "Clear log pressed")
+        peoplePresenter.clearLog()
     }
 
     @IBAction func viewTapped(sender: AnyObject) {
@@ -42,6 +54,8 @@ class ViewController: UIViewController, IPeopleView {
     func setInfoToView(data: String) {
         resultsTextView.text = data
     }
+
+
 
 }
 
