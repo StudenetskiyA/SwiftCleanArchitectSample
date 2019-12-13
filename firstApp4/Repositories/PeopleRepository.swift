@@ -10,7 +10,7 @@ import Foundation
 import RxSwift
 
 class PeopleRepository: IPeopleRepository {
-    let tag = App.tag + "/PeopleRepository"
+    let tag = AppDelegate.tag + "/PeopleRepository"
     let peopleServiceDataSource: IPeopleRemoteDataSource
     let peopleBaseDataSource: IPeopleLocalDataSource
 
@@ -27,12 +27,10 @@ class PeopleRepository: IPeopleRepository {
 
         Observable.create({ observer -> Disposable in
             self.peopleBaseDataSource.getPeople(firstName: firstName, secondName: secondName).subscribe(onNext: { (event) in
-                Log.d(moduleName: self.tag, message: "Get from base " + event)
                 observer.onNext(event)
             }, onError: { (event) in
                 Log.d(moduleName: self.tag, message: "Not found in base, event = \(event) , try get from service")
                 self.peopleServiceDataSource.getPeople(firstName: firstName, secondName: secondName).subscribe(onNext: { (event) in
-                    Log.d(moduleName: self.tag, message: "Save in database " + event)
                     self.peopleBaseDataSource.savePeople(firstName: firstName, secondName: secondName, result: event)
                     observer.onNext(event)
                 }, onError: { (event) in

@@ -7,14 +7,28 @@
 //
 
 import UIKit
+import RealmSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    static let tag = "firstApp4"
 
+    lazy var realm: Realm = try! Realm()
 
+    lazy var peoplePresenter = PeoplePresenter(peopleInteractor: peopleInteractor)
+    lazy var peopleInteractor = PeopleInteractor(peopleRepository: peopleRepository)
+    lazy var peopleRepository = PeopleRepository(
+            peopleServiceDataSource: peopleRemoteDataSource,peopleBaseDataSource: peopleLocalDataSource)
+    lazy var peopleLocalDataSource = PeopleBaseDataSource(realm: realm)
+    lazy var peopleRemoteDataSource = PeopleServiceDataSource()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let configuration = Realm.Configuration(
+                schemaVersion: 1
+        )
+        Realm.Configuration.defaultConfiguration = configuration
+
         return true
     }
 

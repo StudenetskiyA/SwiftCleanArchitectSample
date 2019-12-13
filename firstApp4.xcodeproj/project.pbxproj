@@ -17,7 +17,6 @@
 		5E8A6837976D1B677F1790DE /* IPeopleRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A690164FC6E3EDAC3BABD /* IPeopleRepository.swift */; };
 		5E8A68CD555E48196E7A61C0 /* IPeopleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A60E18C221DDE870E436D /* IPeopleView.swift */; };
 		5E8A6BB13E4586CC6D02B643 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A6FD47CE5F011F1A7C892 /* People.swift */; };
-		5E8A6D9D985A7733C1F63A7B /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E8A665BABBE86672F833947 /* App.swift */; };
 		740BEDA3C3AC084C13E232B3 /* Pods_firstApp4_firstApp4UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EC3613B976B8C3A8FA38E3 /* Pods_firstApp4_firstApp4UITests.framework */; };
 		8138A9D2CA06766C11E9DC01 /* Pods_firstApp4Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C68FB0F017BA6864E2D31BD /* Pods_firstApp4Tests.framework */; };
 		A7C6CC16239E67F5002394DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C6CC15239E67F5002394DC /* AppDelegate.swift */; };
@@ -60,7 +59,6 @@
 		5E8A60E18C221DDE870E436D /* IPeopleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleView.swift; sourceTree = "<group>"; };
 		5E8A64FCCE69528E92B1E586 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		5E8A65F25E3AE0B77860AD56 /* IPeopleLocalDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleLocalDataSource.swift; sourceTree = "<group>"; };
-		5E8A665BABBE86672F833947 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		5E8A6734AC47E684DBF85D63 /* IPeopleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleInteractor.swift; sourceTree = "<group>"; };
 		5E8A690164FC6E3EDAC3BABD /* IPeopleRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPeopleRepository.swift; sourceTree = "<group>"; };
 		5E8A6933EB40DC98EA9E7ED5 /* PeopleInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleInteractor.swift; sourceTree = "<group>"; };
@@ -196,7 +194,6 @@
 				A7C6CC20239E67F5002394DC /* LaunchScreen.storyboard */,
 				A7C6CC23239E67F5002394DC /* Info.plist */,
 				5E8A691F45DC7D06AA00EDD2 /* Presenters */,
-				5E8A665BABBE86672F833947 /* App.swift */,
 				5E8A64FCCE69528E92B1E586 /* Log.swift */,
 				5E8A63CF81106F9123725A15 /* Models */,
 			);
@@ -493,7 +490,6 @@
 				5E8A6837976D1B677F1790DE /* IPeopleRepository.swift in Sources */,
 				5E8A65FD4872B1F537DFC6D0 /* IPeopleRemoteDataSource.swift in Sources */,
 				5E8A68CD555E48196E7A61C0 /* IPeopleView.swift in Sources */,
-				5E8A6D9D985A7733C1F63A7B /* App.swift in Sources */,
 				5E8A61DB5B9DA95DA1BCFF1B /* IPeoplePresenter.swift in Sources */,
 				5E8A61AECE69EBD9430A82B5 /* PeoplePresenter.swift in Sources */,
 				5E8A61341550B9067D436E86 /* IPeopleLocalDataSource.swift in Sources */,

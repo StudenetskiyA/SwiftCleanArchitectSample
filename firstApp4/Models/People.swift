@@ -11,11 +11,10 @@ class People : Object {
     @objc dynamic var lastName: String = ""
     @objc dynamic var email: String = ""
 
-//    init(firstName: String, lastName: String, email:String) {
-//        self.firstName = firstName
-//        self.lastName = lastName
-//        self.email = email
-//    }
+    func setUp(firstName: String, lastName: String, email:String) {
+        self.firstName = firstName
+        self.lastName = lastName
+        self.email = email
+    }
 
-    required init() {}
 }

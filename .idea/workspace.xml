@@ -2,234 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7417edd0-dd46-44f7-a1e3-17af02ef5bfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/AFError.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Alamofire.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/MultipartFormData.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/NetworkReachabilityManager.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Notifications.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ParameterEncoding.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Request.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Response.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ResponseSerialization.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Result.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ServerTrustPolicy.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/SessionDelegate.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/SessionManager.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/TaskDelegate.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Timeline.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Validation.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Gloss/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Gloss/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Gloss/Sources/Gloss/Decoder.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Gloss/Sources/Gloss/Encoder.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Gloss/Sources/Gloss/ExtensionArray.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Gloss/Sources/Gloss/ExtensionDecodable.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Gloss/Sources/Gloss/ExtensionDictionary.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Gloss/Sources/Gloss/Gloss.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Gloss/Sources/Gloss/Operators.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/aleksandrstudeneckij.xcuserdatad/xcschemes/Alamofire.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/aleksandrstudeneckij.xcuserdatad/xcschemes/Gloss.xcscheme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/binding_callback_thread_observer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/collection_notifications.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/apple/keychain_helper.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/collection_notifier.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/list_notifier.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/primitive_list_notifier.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/transact_log_handler.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/weak_realm_notifier.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/object.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/object_store.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/placeholder.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/schema.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/async_open_task.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/impl/apple/network_reachability_observer.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/impl/work_queue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/partial_sync.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/sync_config.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/sync_manager.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/sync_user.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/thread_safe_reference.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/util/uuid.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMArray.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMListBase.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMManagedArray.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMNetworkClient.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMObjectStore.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMObservation.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMRealm.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMRealmConfiguration+Sync.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMRealmUtil.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMResults.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSchema.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncManager.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncPermission.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncSession.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncSessionRefreshHandle.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncSubscription.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncUser.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMUpdateChecker.mm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/NSError+RLMSync.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMAccessor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMAccessor.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMCollection_Private.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMCollection_Private.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMConstants.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMNetworkClient.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObject.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObjectBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObjectSchema.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObjectStore.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObject_Private.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObservation.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMPredicateUtil.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMPrefix.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMProperty_Private.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMProperty_Private.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealm+Sync.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealmConfiguration+Sync.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealmConfiguration.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealmUtil.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealm_Private.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealm_Private.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMResults_Private.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSchema.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncConfiguration_Private.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncSession.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncSubscription.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncUtil_Private.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncUtil_Private.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMUpdateChecker.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/binding_context.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/alloc.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/alloc_slab.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_basic.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_binary.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_direct.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_integer.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/binary_data.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_fwd.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_link.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_linklist.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_mixed.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_string_enum.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_table.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_tpl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_type.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_type_traits.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/descriptor_fwd.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/disable_sync_to_disk.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/exceptions.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/group_shared.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/clamped_hex_dump.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/clock.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/input_stream.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/output_stream.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/index_string.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/lang_bind_helper.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/link_view.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/metrics/query_info.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/null.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/parser/collection_operator_expression.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/parser/parser.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/parser/value_expression.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/query_conditions.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/query_operators.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/realm_nmmintrin.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/spec.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/client.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/instruction_applier.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/instruction_replication.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/instructions.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/permissions.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/protocol.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/bind_ptr.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/circular_buffer.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/config.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/duplicating_logger.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/enum.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/errno.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/file_mapper.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/fixed_size_buffer.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/get_file_size.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/hex_dump.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/http.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/interprocess_mutex.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/load_file.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/logger.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/metered/map.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/metered/vector.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/network.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/network_ssl.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/optional.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/platform_info.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/random.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/safe_int_ops.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/serializer.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/signal_blocker.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/substitute.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/thread.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/thread_exec_guard.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/time.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/timestamp_formatter.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/type_list.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/type_traits.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/uri.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/value_reset_guard.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/version_id.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/version_numbers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/list_notifier.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/object_notifier.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/primitive_list_notifier.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/results_notifier.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/weak_realm_notifier.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/index_set.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/keypath_helpers.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/list.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/object_accessor.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/object_store.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/async_open_task.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/impl/sync_file.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/impl/sync_metadata.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/subscription_state.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/sync_config.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Realm/include/util/uuid.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Gloss/Gloss-Info.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Gloss/Gloss-dummy.m" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Gloss/Gloss-prefix.pch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Gloss/Gloss-umbrella.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Gloss/Gloss.modulemap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pods/Target Support Files/Gloss/Gloss.xcconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstApp4.xcworkspace/xcuserdata/aleksandrstudeneckij.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstApp4/Interactors/firstApp4-Bridging-Header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstApp4/Log.swift" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/firstApp4/Models/People.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/xcode.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/xcode.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstApp4.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstApp4/App.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/App.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstApp4/Interactors/IPeopleInteractor.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Interactors/IPeopleInteractor.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstApp4/Interactors/IPeopleRepository.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Interactors/IPeopleRepository.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstApp4/Interactors/PeopleInteractor.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Interactors/PeopleInteractor.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstApp4/Presenters/PeoplePresenter.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Presenters/PeoplePresenter.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstApp4/Repositories/IPeopleLocalDataSource.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Repositories/IPeopleLocalDataSource.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstApp4/Repositories/IPeopleRemoteDataSource.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Repositories/IPeopleRemoteDataSource.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/App.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firstApp4/Models/People.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Models/People.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstApp4/Repositories/PeopleBaseDataSource.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Repositories/PeopleBaseDataSource.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstApp4/Repositories/PeopleRepository.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Repositories/PeopleRepository.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/firstApp4/Repositories/PeopleServiceDataSource.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/Repositories/PeopleServiceDataSource.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firstApp4/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/firstApp4/ViewController.swift" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -303,7 +82,8 @@
       <workItem from="1576050440387" duration="1616000" />
       <workItem from="1576056476721" duration="17420000" />
       <workItem from="1576155110904" duration="312000" />
-      <workItem from="1576155448336" duration="1883000" />
+      <workItem from="1576155448336" duration="2141000" />
+      <workItem from="1576214427793" duration="2761000" />
     </task>
     <servers />
   </component>
@@ -318,42 +98,46 @@
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state x="560" y="183" key="#Updates/0.23.1920.989@0.23.1920.989" timestamp="1576056557814" />
-    <state width="1164" height="286" key="GridCell.Tab.0.bottom" timestamp="1576157638437">
+    <state x="730" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1576216212257">
+      <screen x="0" y="23" width="1920" height="989" />
+    </state>
+    <state x="730" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1920.989@0.23.1920.989" timestamp="1576216212257" />
+    <state width="1152" height="286" key="GridCell.Tab.0.bottom" timestamp="1576217220590">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="939" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1576064232659" />
-    <state width="1164" height="286" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1576157638437" />
-    <state width="1164" height="286" key="GridCell.Tab.0.center" timestamp="1576157638436">
+    <state width="1152" height="286" key="GridCell.Tab.0.bottom/0.23.1920.989@0.23.1920.989" timestamp="1576217220590" />
+    <state width="1152" height="286" key="GridCell.Tab.0.center" timestamp="1576217220589">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="939" height="295" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1576064232658" />
-    <state width="1164" height="286" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1576157638436" />
-    <state width="1164" height="286" key="GridCell.Tab.0.left" timestamp="1576157638436">
+    <state width="1152" height="286" key="GridCell.Tab.0.center/0.23.1920.989@0.23.1920.989" timestamp="1576217220589" />
+    <state width="1152" height="286" key="GridCell.Tab.0.left" timestamp="1576217220589">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="939" height="295" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1576064232658" />
-    <state width="1164" height="286" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1576157638436" />
-    <state width="1164" height="286" key="GridCell.Tab.0.right" timestamp="1576157638436">
+    <state width="1152" height="286" key="GridCell.Tab.0.left/0.23.1920.989@0.23.1920.989" timestamp="1576217220589" />
+    <state width="1152" height="286" key="GridCell.Tab.0.right" timestamp="1576217220589">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
     <state width="939" height="295" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1576064232658" />
-    <state width="1164" height="286" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1576157638436" />
-    <state width="874" height="314" key="GridCell.Tab.1.bottom" timestamp="1576155090128">
+    <state width="1152" height="286" key="GridCell.Tab.0.right/0.23.1920.989@0.23.1920.989" timestamp="1576217220589" />
+    <state width="874" height="314" key="GridCell.Tab.1.bottom" timestamp="1576216547366">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
-    <state width="874" height="314" key="GridCell.Tab.1.bottom/0.23.1920.989@0.23.1920.989" timestamp="1576155090128" />
-    <state width="874" height="314" key="GridCell.Tab.1.center" timestamp="1576155090128">
+    <state width="874" height="314" key="GridCell.Tab.1.bottom/0.23.1920.989@0.23.1920.989" timestamp="1576216547366" />
+    <state width="874" height="314" key="GridCell.Tab.1.center" timestamp="1576216547365">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
-    <state width="874" height="314" key="GridCell.Tab.1.center/0.23.1920.989@0.23.1920.989" timestamp="1576155090128" />
-    <state width="874" height="314" key="GridCell.Tab.1.left" timestamp="1576155090128">
+    <state width="874" height="314" key="GridCell.Tab.1.center/0.23.1920.989@0.23.1920.989" timestamp="1576216547365" />
+    <state width="874" height="314" key="GridCell.Tab.1.left" timestamp="1576216547365">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
-    <state width="874" height="314" key="GridCell.Tab.1.left/0.23.1920.989@0.23.1920.989" timestamp="1576155090128" />
-    <state width="874" height="314" key="GridCell.Tab.1.right" timestamp="1576155090128">
+    <state width="874" height="314" key="GridCell.Tab.1.left/0.23.1920.989@0.23.1920.989" timestamp="1576216547365" />
+    <state width="874" height="314" key="GridCell.Tab.1.right" timestamp="1576216547365">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
-    <state width="874" height="314" key="GridCell.Tab.1.right/0.23.1920.989@0.23.1920.989" timestamp="1576155090128" />
+    <state width="874" height="314" key="GridCell.Tab.1.right/0.23.1920.989@0.23.1920.989" timestamp="1576216547365" />
     <state x="469" y="156" key="SettingsEditor" timestamp="1576141363783">
       <screen x="0" y="23" width="1920" height="989" />
     </state>
