@@ -31,6 +31,7 @@ class PeopleServiceDataSource: IPeopleRemoteDataSource {
 
                     observer.onNext(responseModel.email)
                 case .failure(let error):
+                    //Интерактор решит, что делать с ошибкой
                     observer.onError(error)
                 }
             }
