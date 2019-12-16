@@ -4,8 +4,11 @@
 //
 
 import Foundation
+import UIKit
 
 class PeoplePresenter : IPeoplePresenter{
+    let tag = AppDelegate.tag + "/Presenter"
+
     var peopleView: IPeopleView?
     let peopleInteractor: IPeopleInteractor
     let logInteractor: ILogInteractor
@@ -17,10 +20,10 @@ class PeoplePresenter : IPeoplePresenter{
 
     func clearLog() {
         logInteractor.clearLog()
-        getLog()
+        showLog()
     }
 
-    func getLog() {
+    func showLog() {
         refreshUI(info: logInteractor.getLog())
     }
 
@@ -37,9 +40,9 @@ class PeoplePresenter : IPeoplePresenter{
             self.refreshUI(info: event)
         }, onError: { (error) in
             self.refreshUI(info: error as? String ?? "")
-            print(error)
+            Log.d(moduleName: self.tag, message: "error = \(error)")
         }, onCompleted: {
-            print("finish")
+            Log.d(moduleName: self.tag, message: "View log pressed")
         })
     }
 
@@ -47,4 +50,12 @@ class PeoplePresenter : IPeoplePresenter{
         peopleView?.setInfoToView(data: info)
     }
 
+    func textFieldDidChange(senderName: String, senderLastName: String) {
+        //Мацюк в своих видео говорит выносить такие вещи в интерактор, но я не уверен, что это именно бизнес-логика. Обсуждаемо.
+        if (senderName.count > 2 && senderLastName.count > 2) {
+            peopleView?.setFindButtonEnabled(enable: true)
+        } else {
+            peopleView?.setFindButtonEnabled(enable: false)
+        }
+    }
 }

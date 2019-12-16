@@ -11,4 +11,5 @@ protocol IPeopleView {
 
     func setInfoToView(data: String) //Вообще, здесь надо дата-модель
 
+    func setFindButtonEnabled(enable: Bool)
 }

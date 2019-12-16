@@ -19,11 +19,17 @@
                                 <rect key="frame" x="57" y="122" width="305" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="nameTextFieldChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="Ypv-aG-rEj"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MW2-bU-YmG">
                                 <rect key="frame" x="57" y="164" width="305" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="lastNameFieldChanged:" destination="BYZ-38-t0r" eventType="editingChanged" id="VTL-Y1-ysx"/>
+                                </connections>
                             </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tu3-Rp-7ph">
                                 <rect key="frame" x="57" y="282" width="305" height="515"/>
@@ -32,7 +38,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9e-Fg-QKp">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9e-Fg-QKp">
                                 <rect key="frame" x="57" y="221" width="30" height="30"/>
                                 <state key="normal" title="Find"/>
                                 <connections>
@@ -78,8 +84,9 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="findButton" destination="X9e-Fg-QKp" id="2bF-K0-sDp"/>
+                        <outlet property="lastNameTextField" destination="MW2-bU-YmG" id="ujl-hn-N9h"/>
                         <outlet property="nameTextField" destination="aAz-gV-hj9" id="jWY-WW-cdg"/>
-                        <outlet property="passwordTextField" destination="MW2-bU-YmG" id="HiX-lN-gnm"/>
                         <outlet property="resultsTextView" destination="tu3-Rp-7ph" id="nPx-YQ-2aq"/>
                     </connections>
                 </viewController>

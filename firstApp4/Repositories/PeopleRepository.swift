@@ -21,9 +21,9 @@ class PeopleRepository: IPeopleRepository {
 
     func getPeople(firstName: String, secondName: String) -> Observable<String> {
         //Если бы не надо было сохранять в базу после получения от сервера, можно еще короче написать.
-//        self.peopleBaseDataSource.getPeople(firstName: firstName, secondName: secondName).catchError { error in
-//            self.peopleServiceDataSource.getPeople(firstName: firstName, secondName: secondName)
-//        }
+        //self.peopleBaseDataSource.getPeople(firstName: firstName, secondName: secondName).catchError { error in
+        //self.peopleServiceDataSource.getPeople(firstName: firstName, secondName: secondName)
+        //}
 
         Observable.create({ observer -> Disposable in
             self.peopleBaseDataSource.getPeople(firstName: firstName, secondName: secondName).subscribe(onNext: { (event) in
@@ -34,6 +34,7 @@ class PeopleRepository: IPeopleRepository {
                     self.peopleBaseDataSource.savePeople(firstName: firstName, secondName: secondName, result: event)
                     observer.onNext(event)
                 }, onError: { (event) in
+                    //Можно пробросить ошибку выше и показать что-нибудь юзеру по этому поводу.
                     Log.d(moduleName: self.tag, message: "Error from service, event = \(event)")
                 })
             })

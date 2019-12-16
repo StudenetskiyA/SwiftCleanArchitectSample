@@ -19,6 +19,5 @@ class LogInteractor : ILogInteractor {
     func getLog() -> String{
         logRepository.getLog()
     }
-
-
+    
 }

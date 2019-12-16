@@ -18,7 +18,8 @@ class ViewController: UIViewController, IPeopleView {
 
     @IBOutlet var resultsTextView: UITextView!
     @IBOutlet var nameTextField: UITextField!
-    @IBOutlet var passwordTextField: UITextField!
+    @IBOutlet var lastNameTextField: UITextField!
+    @IBOutlet var findButton: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,13 +28,13 @@ class ViewController: UIViewController, IPeopleView {
     }
 
     @IBAction func okButtonPressed(sender: AnyObject) {
-        print("Search button pressed")
+        Log.d(moduleName: self.tag, message: "Search button pressed")
         searchPeople()
     }
 
     @IBAction func viewLogButtonPressed(sender: AnyObject) {
         Log.d(moduleName: self.tag, message: "View log pressed")
-        peoplePresenter.getLog()
+        peoplePresenter.showLog()
     }
 
     @IBAction func clearLogButtonPressed(sender: AnyObject) {
@@ -42,19 +43,29 @@ class ViewController: UIViewController, IPeopleView {
     }
 
     @IBAction func viewTapped(sender: AnyObject) {
-        print("View pressed")
         nameTextField.resignFirstResponder()
-        passwordTextField.resignFirstResponder()
+        lastNameTextField.resignFirstResponder()
+    }
+
+    @IBAction func nameTextFieldChanged(_ sender: UITextField) {
+        peoplePresenter.textFieldDidChange(senderName: sender.text ?? "", senderLastName: lastNameTextField.text ?? "")
+    }
+
+    @IBAction func lastNameFieldChanged(_ sender: UITextField) {
+        peoplePresenter.textFieldDidChange(senderName: nameTextField.text ?? "", senderLastName: sender.text ?? "")
     }
 
     func searchPeople() {
-        peoplePresenter.getPeople(firstName: nameTextField.text!, secondName: passwordTextField.text!)
+        peoplePresenter.getPeople(firstName: nameTextField.text!, secondName: lastNameTextField.text!)
     }
 
     func setInfoToView(data: String) {
         resultsTextView.text = data
     }
 
+    func setFindButtonEnabled(enable: Bool) {
+        findButton.isEnabled = enable
+    }
 
 
 }

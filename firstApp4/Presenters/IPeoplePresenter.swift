@@ -4,6 +4,7 @@
 //
 
 import Foundation
+import UIKit
 
 protocol IPeoplePresenter {
 
@@ -11,10 +12,11 @@ protocol IPeoplePresenter {
 
     func clearLog()
 
-    func getLog()
+    func showLog()
 
     func bindView(view: IPeopleView)
 
     func unbindView()
 
+    func textFieldDidChange(senderName: String, senderLastName: String)
 }

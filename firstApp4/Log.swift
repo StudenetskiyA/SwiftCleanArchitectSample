@@ -21,7 +21,7 @@ class Log : ILogInteractor {
         appendTextToFile(text: textToPrint)
     }
 
-    static func appendTextToFile(text: String) {
+    private static func appendTextToFile(text: String) {
         let path = (tempDir as NSString).appendingPathComponent(logFile)
         let contentsToWrite = "\(text)\n"
         let fileURL = URL(fileURLWithPath: path)
@@ -57,24 +57,5 @@ class Log : ILogInteractor {
         }
         return ""
     }
-
-//    func isFileExist(fileName: String) -> Bool {
-//        do {
-//            let filesInDirectory = try fileManager.contentsOfDirectory(atPath: tempDir)
-//            let files = filesInDirectory
-//            if (files.count > 0) {
-//                if (files.first == fileName) {
-//                    print("file.txt found")
-//                    return true
-//                } else {
-//                    print("File not found")
-//                    return false
-//                }
-//            }
-//        } catch let error as NSError {
-//            print(error)
-//        }
-//        return false
-//    }
 
 }

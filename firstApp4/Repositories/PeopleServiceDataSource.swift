@@ -31,8 +31,7 @@ class PeopleServiceDataSource: IPeopleRemoteDataSource {
 
                     observer.onNext(responseModel.email)
                 case .failure(let error):
-                    //Не понимаю, как извлечь полезную информацию из error
-                    observer.onError(NSError(domain: "", code: 0, userInfo: nil))
+                    observer.onError(error)
                 }
             }
             return Disposables.create {
@@ -42,11 +41,13 @@ class PeopleServiceDataSource: IPeopleRemoteDataSource {
 }
 
 struct GetResult: Decodable {
+    let tag = AppDelegate.tag + "/GetResultDecoder"
+
     public let email: String
 
     public init?(json: JSON) {
         guard let email: String = "email" <~~ json else {
-            print("email unwrapping failed in guard")
+            Log.d(moduleName: self.tag, message: "Email unwrapping failed in guard")
             return nil
         }
 
